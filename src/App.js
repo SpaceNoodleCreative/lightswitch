@@ -44,13 +44,15 @@ class App extends Component {
           <Footer>
             <div>
               Made with
-              <FooterIcon>
-                <Icon size="1.5em" icon={heart} />
-              </FooterIcon>
+              <a href="/" title="Back home">
+                <FooterIcon>
+                  <Icon size="1.5em" icon={heart} />
+                </FooterIcon>
+              </a>
               because of reasons
             </div>
             <a
-              href="https://github.com/tomsyadvichuks/lightswitch.git"
+              href="https://github.com/tomsyadvichuks/lightswitch"
               target="blank"
             >
               <FooterIcon>
